@@ -1,0 +1,22 @@
+{
+  "name": "cf-worker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "build:dev": "tsc -w",
+    "start:dev": "wrangler dev",
+    "deploy": "wrangler publish",
+    "lint": "tslint -c tslint.json 'src/**/*.ts'"
+  },
+  "keywords": [
+    "cloudflare",
+    "workers"
+  ],
+  "author": "Hasan Genc <hasangenc.istanbul@>hotmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "@cloudflare/workers-types": "^2.0.0"
+  }
+}
