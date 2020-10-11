@@ -17,7 +17,6 @@ npm run start:dev
 ```
 
 ### Build & Deploy
-Run the following commands in separate shell sessions. 
 
 ```
 npm run build
